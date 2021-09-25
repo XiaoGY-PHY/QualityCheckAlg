@@ -1,0 +1,4 @@
+//#include "$VERTEXFITROOT/share/jobOptions_VertexDbSvc.txt"
+ApplicationMgr.DLLs += {"QualityCheckAlg"};
+ApplicationMgr.TopAlg += { "QualityCheckAlg" };
+
